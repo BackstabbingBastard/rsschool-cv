@@ -1,0 +1,1 @@
+https://github.com/BackstabbingBastard/rsschool-cv/blob/gh-pages/cv.md

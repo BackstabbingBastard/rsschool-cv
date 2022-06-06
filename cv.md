@@ -1,3 +1,4 @@
+![](X:\documents\RsShcoolStage0\CV1 Markdown\rsschool-cv\images\photo_2019.jpg)
 1. Andrei 
 2. tg: @BackstabbingBastard, email: andrey42work@gmail.com, discord: JamesHowlett#9375
 3. I'm Batman. Want to be Front-end developer.
@@ -12,5 +13,5 @@ const func = (num) => {
 };
 ``` 
 6. Need something great here
-7. I can read and count to 10. Also i have account in STEPIK (online course platform): https://stepik.org/users/76402602
+7. I can read and also count to 10. And i have account in STEPIK (online course platform): https://stepik.org/users/76402602
 8. Read documentation with online-translator.

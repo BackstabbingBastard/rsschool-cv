@@ -1,4 +1,5 @@
-![](X:\documents\RsShcoolStage0\CV1 Markdown\rsschool-cv\images\photo_2019.jpg)
+![photo](X:/documents/RsShcoolStage0/CV1Markdown/rsschool-cv/images/photo_2019.jpg)
+![test](/images/photo_2019.jpg)
 1. Andrei 
 2. tg: @BackstabbingBastard, email: andrey42work@gmail.com, discord: JamesHowlett#9375
 3. I'm Batman. Want to be Front-end developer.

@@ -4,9 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Batcave | CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icons/BatCV.ico">
 </head>
 <body>
+
+<header class="header_main">
+
+<div class="wrap_container">
+    <nav class="nav_main">
+        <ul class="nav_ul">
+            <li class="nav_item"><a href="#profile" class="nav_link">Profile</a></li>
+            <li class="nav_item"><a href="#contacts" class="nav_link">Contacts</a></li>
+            <li class="nav_item"><a href="#summary" class="nav_link">Summary</a></li>
+            <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+            <li class="nav_item"><a href="#code" class="nav_link">Code</a></li>
+            <!-- <li class="nav_item"><a href="#experience" class="nav_link">Experience</a></li> -->
+            <li class="nav_item"><a href="#courses" class="nav_link">Courses</a></li>
+            <li class="nav_item"><a href="#english" class="nav_link">English</a></li>
+          </ul>
+    </nav>
+</div>
+
+</header>
+
+<main class="main_container">
+
+    <section class="section section_profile" id="profile">
+        <img src="./img/main_photo.jpg" class="section_profile_photo" alt="MyPhoto">
+        <div class="section_profile_title">
+            <h1>Andrei Zaderenko</h1>
+            <h2 hidden>Profile</h2>
+            <h3>JUNIOR FRONT-END DEVELOPER</h3>
+         </div>
+    </section>
+
+    <section class="section section_contacts" id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+            <li>Moscow, Russia</li>
+            <li>Email: <a class="b grey_style" href="mailto:andrey42work@gmail.com<"title="email"> andrey42work@gmail.com</a></li>
+            <li>Github: <a class="b grey_style" href="https://github.com/BackstabbingBastard" title="github"> BackstabbingBastard</a> </li>
+        </ul>
+    </section>
+
+    <section class="section section_summary" id="summary">
+        <h2>Summary</h2>
+        
+        <p>I'm Batman. Want to be Front-end developer.</p>
+    </section>
+
+    <section class="section section_skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>Figma</li>
+        </ul>
+    </section>
+
+    <section class="section section_code" id="code">
+        <h2>Code</h2>
+        <pre>function BatHello() {
+    let UserName = prompt('Introduce yourself', 'Clark Kent');
+    alert(`Hello, ${UserName}, do you bleed?`);
+}
+        
+BatHello();
+        </pre>
+    </section>
+
+    <!-- <section class="section" id="experience">
+        <h2>Experience</h2>
+        6. Need something great here
+    </section> -->
+
+    <section class="section section_courses" id="courses">
+        <h2>Courses</h2>
+        <ul>
+            <li><span class="b">Stepik | Bioinformatics Institute - </span><a href="https://stepik.org/cert/369770" class="b grey_style">"Программирование на Python"</a></li>
+            <li><span class="b">Stepik | Bioinformatics Institute - </span><a href="https://stepik.org/cert/810034" class="b grey_style">"Python: основы и применение"</a></li>
+            <li><span class="b">Yandex School of Data Analysis - </span><a href="https://drive.google.com/drive/folders/1C4iSvJwYwK0Yq7KUWJL-fb0lNPR2Id2S" class="b grey_style">"QA Engineer"</a></li>
+        </ul>
+    </section>
+
+    <section class="section section_english" id="english">
+        <h2>English</h2>
+        
+        <p>Read documentation with online-translator.</p>
+    </section>
+
+
+</main>
     
+<footer class="footer">
+    <div class="footer_container"><div>© 2022 <a href="https://github.com/BackstabbingBastard">Andrei Zaderenko</a></div>
+    <a href="https://rs.school/js/" class="rss_link"></a></div>
+</footer>
+
 </body>
-</html> 
+</html>

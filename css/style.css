@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Battambang";
-     src: url("assets/fonts/Battambang-Light.ttf");
+     src: url("../assets/fonts/Battambang-Light.ttf");
      font-weight: 300;
    }
 
 @font-face {
     font-family: "Battambang";
-    src: url("assets/fonts/Battambang-Bold.ttf");
+    src: url("./assets/fonts/Battambang-Bold.ttf");
     font-weight: 700;
    }
 
@@ -174,13 +174,13 @@ body {
 }
 .menu_burger.active span:nth-of-type(2) {
   top: 10%;
-  left: 90%;
+  left: 95%;
   transform: translate(-50%, 0%) rotate(45deg);  
   position: fixed;
 }
 .menu_burger.active span:nth-of-type(3) {
   top: 10%;
-  left: 90%;
+  left: 95%;
   transform: translate(-50%, 0%) rotate(-45deg); 
   position: fixed;
 }

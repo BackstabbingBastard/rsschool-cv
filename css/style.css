@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Battambang";
-     src: url("../assets/fonts/Battambang-Light.ttf");
+     src: url(../assets/fonts/Battambang-Light.ttf);
      font-weight: 300;
    }
 
 @font-face {
     font-family: "Battambang";
-    src: url("./assets/fonts/Battambang-Bold.ttf");
+    src: url(../assets/fonts/Battambang-Bold.ttf);
     font-weight: 700;
    }
 

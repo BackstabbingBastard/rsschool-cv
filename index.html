@@ -111,6 +111,15 @@ BatHello();
     <a href="https://rs.school/js/" class="rss_link"></a></div>
 </footer>
 
-<script src="../js/burger-script.js"></script>
+<!-- <script src="../js/burger-script.js"></script> -->
+<script>
+let menuBurger = document.querySelector('.menu_burger');
+let burgerUl = document.querySelector('.burger_ul');
+
+menuBurger.addEventListener('click', function(){
+	menuBurger.classList.toggle('active');
+	burgerUl.classList.toggle('active');
+});
+</script>
 </body>
 </html>

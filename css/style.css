@@ -43,6 +43,10 @@ h1::after {
   background: grey;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
 
 .header_main {
     background-color: grey;

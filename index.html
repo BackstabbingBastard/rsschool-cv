@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/icons/BatCV.ico">
 </head>
-<body>
+<body class="body_flow">
 
 <header class="header_main">
 
@@ -76,7 +76,7 @@
 
     <section class="section section_code" id="code">
         <h2>Code</h2>
-        <pre>function BatHello() {
+        <pre class="code_block">function BatHello() {
   let UsName = prompt('Introduce', 'Clark');
   alert(`Hello, ${UsName}, do you bleed?`);
 }
@@ -119,20 +119,23 @@ let menuBurger = document.querySelector('.menu_burger');
 let burgerUl = document.querySelector('.burger_ul');
 let linkClose = document.querySelectorAll('.nav_link');
 let burgerClosed = document.querySelector('.burger_closed');
+let body = document.querySelector('.body_flow');
 console.log(linkClose);
 
 menuBurger.addEventListener('click', function(){
 	menuBurger.classList.toggle('active');
 	burgerUl.classList.toggle('active');
+    body.classList.toggle('overflow-hidden');
     burgerClosed = document.querySelector('.burger_closed');
     if (burgerClosed != null) {
     linkClose.forEach(navLink => {
         navLink.addEventListener('click', function() {
             menuBurger.classList.toggle('active');
 	        burgerUl.classList.toggle('active');
+            body.classList.toggle('overflow-hidden');
             try{burgerClosed.classList.toggle('burger_closed');}
             catch (e) {
-                console.log('You need fix this Monkey code, bro');
+                console.log('It runs, but you need fix this Monkey code, bro');
             }
             
         })

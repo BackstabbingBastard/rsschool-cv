@@ -14,12 +14,12 @@
 
 <div class="wrap_container">
     <nav class="nav_main">
-        <div class="wrap_container">
+        <div class="wrap_container burger_closed">
             <ul class="nav_ul burger_ul">
                 <li class="nav_item"><a href="#profile" class="nav_link">Profile</a></li>
                 <li class="nav_item"><a href="#contacts" class="nav_link">Contacts</a></li>
                 <li class="nav_item"><a href="#summary" class="nav_link">Summary</a></li>
-                <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                <li class="nav_item"><a href="#skills" class="nav_link skills_link">Skills</a></li>
                 <li class="nav_item"><a href="#code" class="nav_link">Code</a></li>
             <!-- <li class="nav_item"><a href="#experience" class="nav_link">Experience</a></li> -->
                 <li class="nav_item"><a href="#courses" class="nav_link">Courses</a></li>
@@ -117,11 +117,27 @@ BatHello();
 <script>
 let menuBurger = document.querySelector('.menu_burger');
 let burgerUl = document.querySelector('.burger_ul');
+let linkClose = document.querySelectorAll('.nav_link');
+let burgerClosed = document.querySelector('.burger_closed');
+console.log(linkClose);
 
 menuBurger.addEventListener('click', function(){
 	menuBurger.classList.toggle('active');
 	burgerUl.classList.toggle('active');
-});
+    burgerClosed = document.querySelector('.burger_closed');
+    if (burgerClosed != null) {
+    linkClose.forEach(navLink => {
+        navLink.addEventListener('click', function() {
+            menuBurger.classList.toggle('active');
+	        burgerUl.classList.toggle('active');
+            try{burgerClosed.classList.toggle('burger_closed');}
+            catch (e) {
+                console.log('You need fix this Monkey code, bro');
+            }
+            
+        })
+    })}
+})
 </script>
 </body>
 </html>

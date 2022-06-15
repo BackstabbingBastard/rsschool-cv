@@ -45,7 +45,7 @@ body {
     line-height: 50px;
     text-decoration: none;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 19px;
     transition: .3s;
     color: black;
   }
@@ -124,7 +124,7 @@ body {
     display: none;
   }
 
-  @media (max-width: 805px) {
+  @media (max-width: 768px) {
     .section {
       width: 100%;
     }

@@ -18,6 +18,7 @@
 html {
     scroll-behavior: smooth; 
   }
+  
 
 body {
     font-family: "Battambang";
@@ -123,7 +124,12 @@ h2 {
   .section_profile_photo {
     border-radius: 50%;
     width: 200px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
   }
+
+
 
   .section_profile_title {
     text-align: center;
@@ -233,6 +239,35 @@ h2 {
 
   .section_english:hover {
     background-image: url(../img/anim_content/penguin-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right 50% bottom 80%;
+    box-shadow: 0px 0px 110px black;
+    padding: 10px;
+  }
+
+
+  .section_projects {
+    transition: .5s;
+
+  }
+  
+
+  .section_projects:hover {
+    background-image: url(../img/anim_content/PetProjects.png);
+    background-repeat: no-repeat;
+    background-position: right 50% bottom 80%;
+    box-shadow: 0px 0px 110px black;
+    padding: 10px;
+  }
+
+
+  .section_education {
+    transition: .5s;
+
+  }
+  
+  .section_education:hover {
+    background-image: url(../img/anim_content/harlin.png);
     background-repeat: no-repeat;
     background-position: right 50% bottom 80%;
     box-shadow: 0px 0px 110px black;
@@ -405,12 +440,13 @@ padding: 5px;
 background: grey;
 transform: translateX(-100%);
 transition: transform 0.5s; 
-/* display: block; */
+
 }
 
 .burger_ul.active {
 display: block;
 transform: translateX(0);
+
 
 }
 
@@ -431,10 +467,7 @@ list-style-type: none;
   align-items: center;
 }
 
-.burger_ul {
-  text-align: left;
 
-}
 
 @media (max-width: 415px) {
 

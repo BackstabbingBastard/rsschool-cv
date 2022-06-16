@@ -40,6 +40,9 @@
 
     <section class="section section_profile" id="profile">
         <img src="./img/main_photo.jpg" class="section_profile_photo" alt="MyPhoto">
+        <!-- <img src="./img/main_photo.jpg" onclick='this.src="./img/itsme.png"' class="section_profile_photo" alt="MyPhoto"> -->
+      
+        
         <div class="section_profile_title">
             <h1>Andrei Zaderenko</h1>
             <h2 hidden>Profile</h2>
@@ -106,6 +109,21 @@ BatHello();
         <p>Read documentation with online-translator.</p>
     </section>
 
+    <section class="section section_projects" id="english">
+        <h2>Projects</h2>
+        
+        <p>I have awesome <a class="b grey_style" href="./index.html" title="awesome CV">Batcave CV</a>.</p>
+    </section>
+
+
+    <section class="section section_education" id="english">
+        <h2>Education</h2>
+        
+        <p>I studied at school and got a lot of useful skills in this place. 
+            For example - i can read and also i can count to 10.</p>
+    </section>
+
+
 
 </main>
     
@@ -114,43 +132,14 @@ BatHello();
     <a href="https://rs.school/js/" class="rss_link"></a></div>
 </footer>
 
-<!-- <script src="../js/burger-script.js"></script> -->
+<script src="../js/photoSwap.js"></script>
+
 <script>
 let menuBurger = document.querySelector('.menu_burger');
 let burgerUl = document.querySelector('.burger_ul');
 let linkClose = document.querySelectorAll('.nav_link');
 let burgerClosed = document.querySelector('.burger_closed');
 let body = document.querySelector('.body_flow');
-let isOverflow = null;
-console.log('1', burgerUl);
-console.log(linkClose);
-
-// menuBurger.addEventListener('click', function(){
-// 	menuBurger.classList.toggle('active');
-// 	burgerUl.classList.toggle('active');
-//     console.log('2', burgerUl);
-
-//     body.classList.toggle('overflow-hidden');
-
-//     burgerClosed = document.querySelector('.burger_closed');
-//     const windowOuterWidth = window.outerWidth;
-//     console.log(windowOuterWidth);
-//     if ((burgerClosed != null) && (windowOuterWidth <= 784)) {
-//     linkClose.forEach(navLink => {
-//         navLink.addEventListener('click', function() {
-//             menuBurger.classList.toggle('active');
-// 	        burgerUl.classList.toggle('active');
-//             body = document.querySelector('.overflow-hidden')
-//             console.log(body);
-//             body.classList.toggle('overflow-hidden');
-//             try{burgerClosed.classList.toggle('burger_closed');}
-//             catch (e) {
-//                 console.log('It runs, but you need fix this Monkey code, bro');
-//             }
-            
-//         })
-//     })}
-// })
 
     menuBurger.addEventListener('click', function(){
 	menuBurger.classList.toggle('active');

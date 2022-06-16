@@ -294,10 +294,10 @@ h2 {
 
 
 .git_li::before {
-  content: url(../img/icons/gitDark2.svg);
+  content: url(../img/icons/gitDark6.svg);
   position: relative;
   top: 9px;
-  left: -5px;
+  left: -4px;
   width: 12px;
   height: 12px;
 }

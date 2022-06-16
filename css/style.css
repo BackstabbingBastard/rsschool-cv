@@ -14,6 +14,7 @@
     box-sizing: border-box;
 } 
 
+
 html {
     scroll-behavior: smooth; 
   }
@@ -272,6 +273,52 @@ h2 {
 
 .code_block {
   font-size: 12px;
+}
+
+
+.ul_contacts {
+  padding: 0;
+  list-style: none;
+}
+
+
+
+.email_li::before {
+  content: url(../img/icons/emailDark.svg);
+  position: relative;
+  top: 9px;
+  left: -5px;
+  width: 12px;
+  height: 12px;
+}
+
+
+.git_li::before {
+  content: url(../img/icons/gitDark2.svg);
+  position: relative;
+  top: 9px;
+  left: -5px;
+  width: 12px;
+  height: 12px;
+}
+
+.discord_li::before {
+  content: url(../img/icons/discordDark.svg);
+  position: relative;
+  top: 9px;
+  left: -5px;
+  width: 12px;
+  height: 12px;
+}
+
+.location_li::before {
+  content: url(../img/icons/locDark.svg);
+  position: relative;
+  top: 9px;
+  left: -5px;
+  width: 12px;
+  height: 12px;
+
 }
 
 

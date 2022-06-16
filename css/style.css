@@ -129,6 +129,10 @@ h2 {
     cursor: pointer;
   }
 
+  .section_profile_photo:hover {
+    box-shadow: 0px 0px 110px rgb(99, 0, 170);
+  }
+
 
 
   .section_profile_title {

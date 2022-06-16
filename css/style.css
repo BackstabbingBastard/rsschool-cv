@@ -124,7 +124,12 @@ h2 {
   .section_profile_photo {
     border-radius: 50%;
     width: 200px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
   }
+
+
 
   .section_profile_title {
     text-align: center;

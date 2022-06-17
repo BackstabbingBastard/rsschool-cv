@@ -68,6 +68,7 @@ h2 {
 }
 
 .nav_link {
+    /* opacity: 0.6; */
     margin: 0 5px;
     padding: 0 5px;
     line-height: 50px;
@@ -76,21 +77,29 @@ h2 {
     font-size: 19px;
     transition: .3s;
     color: black;
+    opacity: 1;
   }
 
   .nav_link:hover {
+    /* opacity: 2; */
     top: 8px;
     left: 0px;
     width: 10px;
     height: 10px; 
-    border-bottom: 1px solid #829985;
-    color: purple;
+    /* color: rgba(228, 218, 228, 0.7); */
     transition: .3s ease-out;
     left: 0;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.2); 
-    box-shadow: 0px 0px 110px black;
+    /* border-radius: 42%; */
+    /* border-top: 1px solid rgba(10, 10, 3, 0.6);
+    border-right: 1px dotted rgba(10, 10, 3, 0.6);
+    border-bottom: ridge rgba(10, 10, 3, 0.6);
+    border-left: 1px dotted rgba(10, 10, 3, 0.6); */
+    /* background-color: rgba(109, 61, 61, 0.5);  */
+    /* box-shadow: 0px 0px 110px black; */
     padding: 5px;
+    /* margin: 0 1px; */
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
   }
 
 
@@ -391,6 +400,8 @@ h2 {
     display: block;
     margin: 5px;
     margin-right: 10px;
+    background-color:grey;
+    border-style: none;
   }
   
   .menu_burger span {
@@ -401,7 +412,7 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #222222;
-    transition: all 0.5s
+    transition: all 0.5s;
   }
   
   .menu_burger span:nth-of-type(2) {
@@ -441,7 +452,7 @@ left: 0;
 width: 100%;
 height: 100%;
 padding: 5px;
-background: grey;
+background: rgba(128,128,128, .94);
 transform: translateX(-100%);
 transition: transform 0.5s; 
 

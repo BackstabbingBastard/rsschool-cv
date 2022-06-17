@@ -155,37 +155,25 @@ let menuBurger = document.querySelector('.menu_burger');
 let burgerUl = document.querySelector('.burger_ul');
 let linkClose = document.querySelectorAll('.nav_link');
 let burgerClosed = document.querySelector('.burger_closed');
-let body = document.querySelector('.body_flow');
+console.log(linkClose);
 
-    menuBurger.addEventListener('click', function(){
+menuBurger.addEventListener('click', function(){
 	menuBurger.classList.toggle('active');
 	burgerUl.classList.toggle('active');
-    console.log('Here2', burgerUl);
-
-
+});
     burgerClosed = document.querySelector('.burger_closed');
-    const windowOuterWidth = window.outerWidth;
-    console.log('windowWidth: ', windowOuterWidth);
-    if ((burgerClosed != null) && (windowOuterWidth <= 784)) {
+    if (burgerClosed != null) {
     linkClose.forEach(navLink => {
         navLink.addEventListener('click', function() {
-           
             menuBurger.classList.toggle('active');
-	        burgerUl.classList.toggle('active');;
-            console.log('bodyCheck', body);
-            if (body !== null) {
-            
+	        burgerUl.classList.toggle('active');
             try{burgerClosed.classList.toggle('burger_closed');}
             catch (e) {
-                console.log('It runs, but you need fix this Monkey code, bro');
-            }}
-            
+                console.log('You need fix this Monkey code, bro');
+            }
+
         })
     })}
-}) 
-
-
-
 
 
 </script>

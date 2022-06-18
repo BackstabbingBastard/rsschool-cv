@@ -66,6 +66,11 @@ h2 {
     align-items: center;
     list-style: none;
     margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
 }
 
 .nav_link {
@@ -376,9 +381,34 @@ h2 {
 
 }
 
+.wrap_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stand_uk {
+  box-sizing: border-box;
+  display: block;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  padding: 5px;
+  max-width: 100%;
+  vertical-align: middle;
+
+}
+
+.stand_uk_img {
+  vertical-align: middle;
+}
 
 
-@media (max-width: 826px) {
+
+@media (max-width: 1024px) {
 
   /* h1::after {
     top: 31%;

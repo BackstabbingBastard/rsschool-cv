@@ -148,6 +148,7 @@ h2 {
     border-style: solid;
     border-width: 1px;
     cursor: pointer;
+    margin-right: 10px;
   }
 
   .section_profile_photo:hover {
@@ -498,13 +499,16 @@ transition: transform 0.5s;
 
 }
 
+
+
 .burger_ul.active {
 display: block;
 transform: translateX(0);
 margin-top: 0;
 
-
 }
+
+
 
 .burger_ul li {
 list-style-type: none;
@@ -547,6 +551,24 @@ list-style-type: none;
   }
 
   }
+
+  @media (max-width: 377px) {
+
+    /* .header_main {
+      position: fixed;
+      width: 100%;
+      background: rgba(128,128,128, 0.8);
+  } */
+
+  .menu_burger {
+    position: fixed;
+    overflow: hidden;
+    display: block;
+    margin-right: 10px;
+    top: -1px;
+    background: none;
+  }
+}
 
 
   @media (max-width: 294px) {

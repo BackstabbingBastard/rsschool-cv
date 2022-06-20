@@ -32,6 +32,12 @@ body {
 }
 
 
+.layout_container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
 .body_flow.overflow-hidden {
   overflow: hidden;
 }
@@ -93,7 +99,7 @@ h2 {
     width: 10px;
     height: 10px; 
     /* color: rgba(228, 218, 228, 0.7); */
-    transition: .3s ease-out;
+    transition: .5s ease-out;
     left: 0;
     /* border-radius: 42%; */
     /* border-top: 1px solid rgba(10, 10, 3, 0.6);
@@ -102,10 +108,10 @@ h2 {
     border-left: 1px dotted rgba(10, 10, 3, 0.6); */
     /* background-color: rgba(109, 61, 61, 0.5);  */
     /* box-shadow: 0px 0px 110px black; */
-    padding: 5px;
+    /* padding: 5px; */
     /* margin: 0 1px; */
     text-transform: uppercase;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 2px #000;
   }
 
 
@@ -409,7 +415,7 @@ h2 {
 
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1012px) {
 
   /* h1::after {
     top: 31%;
@@ -551,3 +557,92 @@ list-style-type: none;
 
   }
 } 
+
+
+
+/* redesign fot 21:9 test  */
+/* @media (min-width: 2160px) {
+  .section {
+    width: calc(33% - 20px);
+    padding: 10px;
+    border-bottom: 1px solid #672f2f;
+    margin: 10px;
+  }
+
+  .section:nth-last-child(3), .section:nth-last-child(2), .section:nth-last-child(1) {
+    border-bottom: none;
+
+  }
+
+  .section_contacts {
+    order: 1;
+  }
+
+  .section_profile {
+    display: flex;
+    border-bottom: 1px;
+    border-radius: 0px;
+    order: 2;
+  }
+
+  .section_code {
+    order: 6;
+  }
+
+  .section_skills {
+    order: 4;
+  }
+
+  .section_summary {
+    order: 5;
+  }
+
+  .section_courses {
+    order: 3;
+  }
+
+  .section_english {
+    order: 7;
+  }
+
+  .section_projects {
+    order: 8;
+  }
+
+  .section_education {
+    order: 9;
+  }
+
+
+  .nav_link {
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h1::after {
+    margin-bottom: -27px;
+    margin-left: -210px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .section_profile_photo {
+    box-shadow: 0px 0px 110px rgb(99, 0, 170);
+  } */
+
+
+
+
+
+
+
+}

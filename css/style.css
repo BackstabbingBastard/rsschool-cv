@@ -538,6 +538,15 @@ list-style-type: none;
   align-items: center;
 }
 
+.menu_burger {
+  position: fixed;
+  overflow: hidden;
+  display: block;
+  margin-right: 10px;
+  top: -1px;
+  background: none;
+}
+
 }
 
 
@@ -552,13 +561,13 @@ list-style-type: none;
 
   }
 
-  @media (max-width: 377px) {
+  /* @media (max-width: 377px) {
 
-    /* .header_main {
+    .header_main {
       position: fixed;
       width: 100%;
       background: rgba(128,128,128, 0.8);
-  } */
+  }
 
   .menu_burger {
     position: fixed;
@@ -568,7 +577,7 @@ list-style-type: none;
     top: -1px;
     background: none;
   }
-}
+} */
 
 
   @media (max-width: 294px) {

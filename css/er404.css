@@ -1,73 +1,13 @@
-* {
-    box-sizing: border-box;
-} 
+ body {
+  color: white;
+ }
 
-html {
-    scroll-behavior: smooth; 
-  }
-
-  body {
-    margin: 0;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  
-  
-  main {
+ main {
     /* Чтобы занимал оставшееся пространство */
     flex-grow: 1;
     background: rgb(76, 61, 61);
   }
   
-  footer {
-    /* Чтобы footer не уменьшался */
-    flex-shrink: 0;
-    background: black;
-  }
-
-  .header_main {
-    background-color: grey;
-}
-
-.nav_ul {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-}
-
-.nav_link {
-  margin: 0 5px;
-  padding: 0 5px;
-  line-height: 50px;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 19px;
-  transition: .3s;
-  color: black;
-}
-
-.nav_link:hover {
-  top: 8px;
-  left: 0px;
-  width: 10px;
-  height: 10px; 
-  border-bottom: 1px solid #829985;
-  color: purple;
-  transition: .3s ease-out;
-  left: 0;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.2); 
-  box-shadow: 0px 0px 110px black;
-  padding: 5px;
-}
-
-
-
-
   .main404_container {
     display: flex;
     align-items: center;
@@ -75,143 +15,12 @@ html {
   }
 
 
-  .footer {
-    background-color: grey;
-    padding: 20px;
-    height: auto;
-  }
-  
-  .footer_container {
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    color: #fff;
-  }
-
-  .rss_link {
-    width: 121px;
-    height: 45px;
-    background-image: url(../img/logo/rs_school_js.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
   .section404 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-
-  @media (max-width: 768px) {
-
-    /* h1::after {
-      top: 31%;
-    } */
-  
-    .section {
-      width: 100%;
-    }
-  
-    .nav_ul {
-      display: none;
-    }
-  
-    .nav_main {
-      display: flex;
-      justify-content: flex-end;
-    }
-  
-  
-    .menu_burger {
-      width: 35px;
-      height: 30px;
-      position: relative;
-      z-index:2;
-      overflow: hidden;
-      display: block;
-      margin: 5px;
-      margin-right: 10px;
-    }
-    
-    .menu_burger span {
-      width: 45px;
-      height: 2.5px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: #222222;
-      transition: all 0.5s
-    }
-    
-    .menu_burger span:nth-of-type(2) {
-      top: calc(50% - 5px);
-    }
-    .menu_burger span:nth-of-type(3) {
-      top: calc(50% + 5px);
-    }
-  
-  /* Меняем гамбургер иконку, когда меню открыто */
-  .menu_burger.active span:nth-of-type(1) {
-  display: none;
-  position: fixed;
-  right: 100%;
-  }
-  .menu_burger.active span:nth-of-type(2) {
-  top: 8%;
-  left: 90%;
-  transform: translate(-50%, 0%) rotate(45deg);  
-  position: fixed;
-  height: 6px;
-  }
-  .menu_burger.active span:nth-of-type(3) {
-  top: 8%;
-  left: 90%;
-  transform: translate(-50%, 0%) rotate(-45deg); 
-  position: fixed;
-  height: 6px;
-  }
-  
-    /* Меню, которое будет появляться */
-  .burger_ul {
-  position: fixed;
-  text-align: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 5px;
-  background: grey;
-  transform: translateX(-100%);
-  transition: transform 0.5s; 
-  /* display: block; */
-  }
-  
-  .burger_ul.active {
-  display: block;
-  transform: translateX(0);
-  
-  }
-  
-  .burger_ul li {
-  list-style-type: none;
-  }
-  
-  .section:nth-last-child(2) {
-    border-bottom: 1px solid #672f2f;
-  }
-  
-  }
-
-
-
-
-
-
-
 
   @media (max-width: 520px) {
     .gif404 {
@@ -230,3 +39,6 @@ html {
     }
 
 
+
+
+  

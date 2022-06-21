@@ -470,18 +470,19 @@ position: fixed;
 right: 100%;
 }
 .menu_burger.active span:nth-of-type(2) {
-top: 8%;
-left: 90%;
+top: 25px;
+left: 93%;
 transform: translate(-50%, 0%) rotate(45deg);  
 position: fixed;
-height: 6px;
+height: 7px;
+
 }
 .menu_burger.active span:nth-of-type(3) {
-top: 8%;
-left: 90%;
+top: 25px;
+left: 93%;
 transform: translate(-50%, 0%) rotate(-45deg); 
 position: fixed;
-height: 6px;
+height: 7px;
 }
 
   /* Меню, которое будет появляться */

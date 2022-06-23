@@ -22,6 +22,29 @@
     flex-direction: column;
   }
 
+
+  .sprite-container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .sprite-image {
+    width: 270px;
+    height: 282px;
+    background: url(../img/anim_content/sprites/remPhone.png) 0px 0px;
+    animation: play 1.4s steps(3) infinite;
+  }
+
+  @keyframes play {
+    100% {
+      background-position: -886px;
+    }
+  }
+
+
+
+
   @media (max-width: 520px) {
     .gif404 {
       width: 200px;

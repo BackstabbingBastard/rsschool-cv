@@ -42,11 +42,11 @@ body {
   overflow: hidden;
 }
 
-h1 {
+.h1 {
   text-align:center;
 } 
 
-h1::after {
+.h1::after {
   content: '';
   display: inline-block;
   margin-bottom: -20px;
@@ -189,7 +189,7 @@ h2 {
 
   }
 
-  .section_contacts:hover {
+  .section_contacts:hover, .section_contacts:focus {
     background-image: url(../img/anim_content/bat1-remove.png);
     background-repeat: no-repeat;
     background-position: right 0% bottom 100%;
@@ -203,7 +203,7 @@ h2 {
 
   }
 
-  .section_summary:hover {
+  .section_summary:hover, .section_summary:focus {
     background-image: url(../img/anim_content/doubleface-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: right 0% bottom 50%;
@@ -217,7 +217,7 @@ h2 {
 
   }
 
-  .section_skills:hover {
+  .section_skills:hover, .section_skills:focus {
     background-image: url(../img/anim_content/catwoman.png);
     background-repeat: no-repeat;
     background-position: right 0% bottom 80%;
@@ -233,7 +233,7 @@ h2 {
   }
 
 
-  .section_code:hover {
+  .section_code:hover, .section_code:focus  {
     background-image: url(../img/anim_content/riddler.png);
     background-repeat: no-repeat;
     background-position: right 50% bottom 80%;
@@ -258,7 +258,7 @@ h2 {
 
   }
 
-  .section_courses:hover {
+  .section_courses:hover, .section_courses:focus {
     background-image: url(../img/anim_content/robin.png);
     background-repeat: no-repeat;
     background-position: right 50% bottom 80%;
@@ -273,7 +273,7 @@ h2 {
   }
 
 
-  .section_english:hover {
+  .section_english:hover, .section_english:focus {
     background-image: url(../img/anim_content/penguin-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: right 50% bottom 80%;
@@ -288,7 +288,7 @@ h2 {
   }
   
 
-  .section_projects:hover {
+  .section_projects:hover, .section_projects:focus  {
     background-image: url(../img/anim_content/PetProjects.png);
     background-repeat: no-repeat;
     background-position: right 50% bottom 80%;
@@ -302,7 +302,7 @@ h2 {
 
   }
   
-  .section_education:hover {
+  .section_education:hover, .section_education:focus {
     background-image: url(../img/anim_content/harlin.png);
     background-repeat: no-repeat;
     background-position: right 50% bottom 80%;
@@ -412,6 +412,10 @@ h2 {
 
 .stand_uk_img {
   vertical-align: middle;
+}
+
+.copyryght_link {
+  color: #F4F7C9;
 }
 
 
